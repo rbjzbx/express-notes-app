@@ -4,4 +4,4 @@ COPY . .
 RUN npm config set registry https://registry.npmmirror.com
 RUN npm install --legacy-peer-deps
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["npm", "start" ]
